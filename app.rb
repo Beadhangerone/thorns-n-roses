@@ -4,7 +4,7 @@ require 'sinatra/activerecord'
 require 'sqlite3'
 
 require './config/db'
-require './models/message/message'
+#require './models/' #require needed models, from models dir
 
 get '/' do
 	erb :index 
