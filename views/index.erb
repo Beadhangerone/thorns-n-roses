@@ -4,15 +4,21 @@
 
 <ul>
 	<li>
+		Create your models in the /models directory:<br>
+
+		class Example < ActiveRecord::Base<br>
+		end<br><br>
+	</li>
+	<li>
 		Create the database:<br>
-		$ rake db:create_migration NAME=create_users
+		$ rake db:create_migration NAME=create_users<br><br>
 	</li>
 	<li>
-		Add needed fields to your table (DB>migrate>create_users)
+		Add needed fields to your table (DB>migrate>create_users)<br><br>
 	</li>
 	<li>
-		Run the migrations
-		$ rake db:migrate
+		Run the migrations<br>
+		$ rake db:migrate<br><br>
 	</li>
 
 	<li>HAVE FUN!</li>
